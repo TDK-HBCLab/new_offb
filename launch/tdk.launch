@@ -1,0 +1,15 @@
+<launch>
+<!--node name="ultrasonic"  pkg="new_offb" type="ultrasonic.py" output="screen">
+ </node-->
+
+<node pkg="new_offb" type="GoMission" name="GoMission" output="screen">
+ </node>
+
+<node pkg="new_offb" type="Image" name="Image" output="screen">
+  <param name="pixel_format" value="bgr8" />
+  <param name="WIDTH" value="320" />
+  <param name="HEIGHT" value="240" />
+  <param name="frame_rate" value="30" />
+ </node>
+
+</launch>
