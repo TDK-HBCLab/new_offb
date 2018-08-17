@@ -25,7 +25,8 @@ $source ~/your_workspace/devel/setup.bash
 
 $roslaunch usb_cam usb_cam-test.launch
 
-$source ~/your_workspace/devel/setup.bash      (Open a new terminal) or offboard computer, but you have to modify your .bashrc file changing your ROS_MASTER_URI before you do this statement. And source your .bashrc file($ source ~/.bashrc).
+$source ~/your_workspace/devel/setup.bash                     
+(Open a new terminal) or offboard computer, but you have to modify your .bashrc file changing your ROS_MASTER_URI before you do this statement. And source your .bashrc file($ source ~/.bashrc).
 
 $rosrun new_offb Image
 
