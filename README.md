@@ -3,7 +3,7 @@ The package has to use usb_cam package that optimize the camera using some about
 
 Installation (The following steps type your terminal) :
 
-Requirement : First install ROS distro(I use kinetic distro)  Web : http://www.ros.org/
+Requirement : First, you have to install ROS distro(I use kinetic distro), this is their official websit : http://www.ros.org/. Second, you have to prepare a camera compatible your computer.
 
 $mkdir -p ~/your_workspace/src
 
@@ -25,7 +25,7 @@ $source ~/your_workspace/devel/setup.bash
 
 $roslaunch usb_cam usb_cam-test.launch
 
-$source ~/your_workspace/devel/setup.bash (Open a new terminal)
+$source ~/your_workspace/devel/setup.bash      (Open a new terminal) or offboard computer, but you have to modify your .bashrc file changing your ROS_MASTER_URI before you do this statement. And source your .bashrc file($ source ~/.bashrc).
 
 $rosrun new_offb Image
 
